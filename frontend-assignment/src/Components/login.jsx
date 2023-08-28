@@ -1,5 +1,5 @@
 import "./login.css"
-
+import mainlogo from "../logo/mainlogo.png"
 function Login (){
     return(
         <div>
@@ -26,9 +26,24 @@ function Login (){
                 </div>
                </div>
                <div className="box3">
-                <div className="box3-1"></div>
-                <div className="box3-2"></div>
-                <div className="box3-3"></div>
+                <div className="box3-1">
+                    <div>
+                    <img src={mainlogo}></img>
+                    <h1>Stocks</h1>
+                    </div>
+                </div>
+                <div className="box3-2">
+                <div>
+                <img src={mainlogo}></img>
+                    <h1>Mutual Fund</h1>
+                </div>
+                </div>
+                <div className="box3-3">
+            <div>
+            <img  src={mainlogo} className="mainlogo"></img>
+                    <h1>Digital Gold</h1>
+            </div>
+                </div>
 
                </div>
            </div>
