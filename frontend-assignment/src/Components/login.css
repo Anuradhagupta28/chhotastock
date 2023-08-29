@@ -1,7 +1,9 @@
-.box1{
-    
-}
 
+.frame2{
+  border:solid black;
+  height:600px;
+  overflow: hidden;
+}
 .box1-h{
     color: #F3A61D;
    
@@ -22,7 +24,7 @@
 .frame2-box{
     display:flex;
     justify-content:space-around;
-    border:solid black
+   
 }
 .smalldiv1 {
     display: flex;
@@ -85,6 +87,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 .box3{
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .box3-1 {
@@ -189,3 +192,59 @@ background: linear-gradient(85deg, #FEC974 0%, #FA8A77 99.91%);
     margin-left: 10px;
     font-size: 35px;
   }
+  /* /////////////////////////////// */
+.frame3{
+  display: flex;
+  justify-content: space-around;
+}
+  .frame3-box1{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+  }
+ 
+  .div1{
+    display: flex;
+    justify-content: space-evenly;
+    gap:40px;
+    margin-top: 30px;
+  }
+  .div1 > button{
+    width: 128px;
+    height: 45px;
+ 
+    font-size: 18px;
+    border:#F3A61D;
+    border-radius: 35px;
+background: linear-gradient(99deg, #FEC826 0%, #F3A61D 100%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .div1 > p{
+    text-decoration: underline;
+    font-size: 18px;
+  }
+  .frame3-box2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .frame3-box1 > h4{
+    color:#28B570;
+    font-size: 18px;
+    }
+    .frame3-box1 > h1{
+    margin-top: -10px;
+    }
+    #invest{
+      margin-top: -20px;
+    }
+    .frame3-box1 > h3{
+      color:#777;
+      font-size: 21px;
+    }
+    #invest1{
+      margin-top: -3px;
+    }
+    #invest2{
+      margin-top: -18px;
+    }

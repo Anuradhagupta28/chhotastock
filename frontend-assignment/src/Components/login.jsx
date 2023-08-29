@@ -1,5 +1,9 @@
 import "./login.css"
-import mainlogo from "../logo/mainlogo.png"
+import mainlogo from "../logo/mainlogo.png";
+import image2 from "../logo/image2.png"
+import tracking from "../logo/tracking.png"
+import stick from "../logo/stick.png"
+import fire from "../logo/fire.png"
 function Login (){
     return(
         <div>
@@ -43,9 +47,45 @@ function Login (){
             <img  src={mainlogo} className="mainlogo"></img>
                     <h1>Digital Gold</h1>
             </div>
-                </div>
+            </div>
+            </div>
+           </div>
 
-               </div>
+           {/* ///////////////////////////////////////////////////////////////////////////// */}
+           <div className="frame3">
+            <div className="frame3-box1">
+                <h4>FEATURES</h4>
+                <h1>Launch the most Engaging </h1>
+                <h1 id="invest">Invest-Tech Solutions</h1>
+                <h3 id="invest1">We offer a suite of B2B Invest-tech solutions, </h3>
+                <h3 id="invest2">that are cost-effective way to offer an</h3>
+                <h3 id="invest2" >engaging investment experience to your </h3>
+                <h3 id="invest2">customers, with a faster time to market</h3>
+                <div className="div1">
+                    <button>Get Started</button>
+                    <p>Learn more</p>
+                </div>
+            </div>
+            <div  className="frame3-box2">
+                <div>
+                    <h4>Protection</h4>
+                    <img src={image2}></img>
+                    <p>Data protection guarentees</p>
+                </div>
+                <div>
+                <h4>Tracking</h4>
+                    <img src={tracking}></img>
+                    <p>Track all your users’ financial transactions</p>
+                </div>
+                <div><h4>Protection</h4>
+                    <img src={stick}></img>
+                    <p>Custom made for your requirements</p></div>
+                <div>
+                <h4>Protection</h4>
+                    <img src={fire}></img>
+                    <p>Go-to market in less than 7 days</p>
+                </div>
+            </div>
            </div>
           
         </div>
