@@ -320,14 +320,35 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
       align-items: flex-start;
       border:solid #28B570;
      margin-left: 50px;
+    
   
+    }
+    #firstbox-c{
+      margin-top: -5px;
+    }
+    #firstbox-n{
+    margin-top: -25px;
+    }
+    #firstbox-b{
+    margin-top: -22px;
+    }
+    .firstbox>button{
+      width: 170px;
+    height: 42px;
+ 
+    font-size: 18px;
+    border:#F3A61D;
+    border-radius: 35px;
+background: linear-gradient(99deg, #FEC826 0%, #F3A61D 100%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }
     .frame4-box1 h1{
       color:white;
-      
+      font-size: 40px;
     }
     .frame4-box1 h3{
      color:#CECECE;
+     font-size: 22px;
     }
     .secondbox >img{
       width:450px;
