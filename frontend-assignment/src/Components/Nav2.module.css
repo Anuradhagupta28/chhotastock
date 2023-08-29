@@ -18,8 +18,8 @@
   align-items: center;
 }
 .gatewayButton {
-  width: 11.125rem;
-  height: 3.5625rem;
+  width: 9.125rem;
+  height: 2.5625rem;
   flex-shrink: 0;
   border-radius: 2.1875rem;
   background: #fdecec;
@@ -52,9 +52,9 @@
 .navLink {
   color: #fff;
   font-family: Inter;
-  font-size: 1.875rem;
+  font-size: 20px;
   font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  margin-top: 40px;
+margin-right: 30px;
 }
 /* mm */
