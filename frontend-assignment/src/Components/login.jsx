@@ -117,7 +117,7 @@ function Login (){
             <h4>SOLUTION</h4>
                 
                 <h1>Stay ahead with our</h1>
-                <h1> Wealth-tech as a service </h1>
+                <h1 className="investdown"> Wealth-tech as a service </h1>
             </div>
 
 
