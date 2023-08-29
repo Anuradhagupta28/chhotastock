@@ -361,3 +361,41 @@ margin-top: 10px;
       margin-top: 215px;
       margin-left: -100px;
     }
+    /* ///////////////////////////////////////////////////////////////////// */
+
+    .frames5{
+      margin:50px;
+      border:solid #28B570;
+    }
+    .frames5-box2{
+      display: flex;
+      justify-content: space-around;
+      margin:50px;
+    }
+    .inner1 {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+    }
+    .inner1 > div{
+      width:200px;
+      height:400px;
+    background-color:#FAFCFD;
+    border: 1px solid #FDE3AF;
+      border-radius: 30px;
+      margin:30px;
+    }
+
+    .inner2 > div{
+      width:200px;
+      height:400px;
+      
+     
+
+border-radius: 25px;
+border: 1px solid #FDE3AF;
+background: #FEF8EC;
+    }
+
+    #boxx1{
+      background: #FEF8EC;
+    }

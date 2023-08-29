@@ -5,6 +5,10 @@ import tracking from "../logo/tracking.png"
 import stick from "../logo/stick.png"
 import fire from "../logo/fire.png"
 import hand from "../logo/hand.png"
+import pic1 from "../logo/pic1.png"
+import pic2 from "../logo/pic2.png"
+import pic3 from "../logo/pic3.png"
+import pic4 from "../logo/pic4.png"
 function Login (){
     return(
         <div>
@@ -108,19 +112,70 @@ function Login (){
            </div>
            {/* /////////////////////////////////// */}
            <div className="frame5">
-            <div>
+
+            <div className="frames5-box1">
             <h4>SOLUTION</h4>
                 
                 <h1>Stay ahead with our</h1>
                 <h1> Wealth-tech as a service </h1>
             </div>
+
+
+            <div  className="frames5-box2">
+                <div className="inner1">
+                <div id="boxx1"> 
+                    <img src={pic1}></img>
+                    <h4>Investpe</h4>
+                    <h2>Why does it make sense to start with us?</h2>
+                </div>
+                <div>
+
+                    <div>
+                    <h2>We value your precious
+                        <br/> 
+                        time.</h2>
+                    
+                    <h2>No regulatory licenses required as we have everything for you to get started.</h2>
+                    </div>
+
+                    <div>
+                        <img src={pic2}></img>
+                    </div>
+                </div>
+               
+                <div>
+                    <h4>MUTUAL FUNDS</h4>
+                    <h2>Get the complete MF Infra
+                        <br/>
+& focus on customer engagement</h2>
+                    <p>SEBI compliant KYC process</p>
+                    <p>Multi-AMC empanelments</p>
+                    <p>Transact & Track orders</p>
+                    <p>Advanced reporting</p>
+                </div>
+
+                <div>
+                <h4> INDIAN EQUITY</h4>
+                    <h2>One gateway for all top securities</h2>
+                    <p>Enable stocks, ETFs & expert 
+                        <br/>curated stock baskets in your app</p>
+                    <p>Integrates with all major brokers</p>
+                    <p>Offer expert curated & monitored 
+                        <br/>stock basket solutions</p>
+                    </div>
+
+              </div>
+
+            <div className="inner2">
             <div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                    <img src={pic4}></img>
+                    <h4>Fixed Deposits</h4>
+                    <h2>Fully digital FDs for your users</h2>
+                    <p>Offer fixed deposits on your app or website, from multiple banks. Embed a pre-built SDK and go live in weeks.</p>
+                    <img src={pic3}></img>
+                </div>
             </div>
+           </div>
            </div>
           
         </div>
