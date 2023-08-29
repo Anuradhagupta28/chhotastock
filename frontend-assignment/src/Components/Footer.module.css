@@ -1,6 +1,5 @@
 .footerSection {
-  width: 120rem;
-  height: 51.875rem;
+ 
   flex-shrink: 0;
   background: #171e27;
   margin: 0 auto;
@@ -8,8 +7,9 @@
   margin-top: 10rem;
 }
 table {
-  width: 90rem;
+  width: 70rem;
   margin-top: 3rem;
+  /* border:solid black; */
 }
 thead {
   color: #f6f6f6;
@@ -19,6 +19,7 @@ thead {
   font-weight: 700;
   line-height: 1.6875rem; /* 150% */
   letter-spacing: -0.01788rem;
+  border:solid palevioletred;
 }
 tbody {
   color: #d9d9d9;
@@ -28,6 +29,7 @@ tbody {
   font-weight: 300;
   line-height: 1.6875rem; /* 150% */
   letter-spacing: -0.01788rem;
+  
 }
 .googleLogo {
   position: relative;
@@ -37,6 +39,7 @@ tbody {
 }
 
 .social p {
+  border:solid white;
   display: flex;
   width: 8.58331rem;
   height: 2.00963rem;
@@ -44,12 +47,11 @@ tbody {
   justify-content: center;
   flex-shrink: 0;
   color: #d9d9d9;
-  /* font-family: Gilroy; */
-  font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 2.375rem; /* 190% */
+ 
+
+  line-height: 2.375rem; 
   letter-spacing: -0.01788rem;
+ 
 }
 .social div {
   display: flex;
@@ -58,17 +60,21 @@ tbody {
   align-items: center;
 }
 .footerText {
-  display: flex;
-  width: 103rem;
+ 
+ 
   height: 16.21581rem;
+  display: flex;
   flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
+  align-items: flex-start;
+ 
   color: #d9d9d9;
   /* font-family: Gilroy; */
-  font-size: 1rem;
+  font-size: 13px;
   font-style: normal;
   font-weight: 300;
   line-height: 1.125rem; /* 112.5% */
   letter-spacing: -0.01788rem;
+  /* border:solid red; */
+  margin-top: 40px;
+
 }

@@ -1,11 +1,11 @@
 import React from "react";
-import logo from "../assets/investpe-logo.png";
+import logo from "../logo/logo.png";
 import styles from "./Footer.module.css";
-import google from "../assets/googleLogo.svg";
-import facebook from "../assets/facebook.png";
-import youtube from "../assets/youtube.png";
-import instagram from "../assets/Instagram.png";
-import twitter from "../assets/twitter.png";
+import google from "../logo/google.png";
+import facebook from "../logo/facebook.png";
+import youtube from "../logo/yutube.png";
+import instagram from "../logo/instagram.png";
+import twitter from "../logo/twitter.png";
 
 export const Footer = () => {
   return (

@@ -75,6 +75,7 @@ function Login (){
                 </div>
                 <div id="blackdiv">
                 <h3 >Tracking</h3>
+                {/*  */}
                     <img src={tracking}></img>
                     <p>Track all your users’ financial transactions</p>
                 </div>
