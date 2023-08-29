@@ -113,7 +113,7 @@ function Login (){
            {/* /////////////////////////////////// */}
            <div className="frame5">
 
-            <div className="frames5-box1">
+           <div className="frames5-box1">
             <h4>SOLUTION</h4>
                 
                 <h1>Stay ahead with our</h1>
@@ -128,9 +128,9 @@ function Login (){
                     <h4>Investpe</h4>
                     <h2>Why does it make sense to start with us?</h2>
                 </div>
-                <div>
 
-                    <div>
+                <div id="boxx2">
+                    <div >
                     <h2>We value your precious
                         <br/> 
                         time.</h2>
@@ -143,7 +143,7 @@ function Login (){
                     </div>
                 </div>
                
-                <div>
+                <div id="boxx3">
                     <h4>MUTUAL FUNDS</h4>
                     <h2>Get the complete MF Infra
                         <br/>
@@ -154,7 +154,7 @@ function Login (){
                     <p>Advanced reporting</p>
                 </div>
 
-                <div>
+                <div id="boxx4">
                 <h4> INDIAN EQUITY</h4>
                     <h2>One gateway for all top securities</h2>
                     <p>Enable stocks, ETFs & expert 
@@ -172,10 +172,10 @@ function Login (){
                     <h4>Fixed Deposits</h4>
                     <h2>Fully digital FDs for your users</h2>
                     <p>Offer fixed deposits on your app or website, from multiple banks. Embed a pre-built SDK and go live in weeks.</p>
-                    <img src={pic3}></img>
+                    <img src={pic3} id="imgmain"></img>
                 </div>
             </div>
-           </div>
+           </div> 
            </div>
           
         </div>
