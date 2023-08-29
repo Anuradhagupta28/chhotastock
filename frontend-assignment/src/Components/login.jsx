@@ -4,6 +4,7 @@ import image2 from "../logo/image2.png"
 import tracking from "../logo/tracking.png"
 import stick from "../logo/stick.png"
 import fire from "../logo/fire.png"
+import hand from "../logo/hand.png"
 function Login (){
     return(
         <div>
@@ -85,6 +86,23 @@ function Login (){
                     <img src={fire}></img>
                     <p>Go-to market in less than 7 days</p>
                 </div>
+            </div>
+           </div>
+           {/* ////////////////////////////////////////////// */}
+
+           <div className="frame4">
+            <div className='frame4-box1'>
+            <div className='firstbox'>
+            <h1>Connect your platform finances </h1>
+            <h1 id="now">now with InvestPe Gateway</h1>
+            <h3>We help brokers, wealth managers, fund managers & other</h3>
+            <h3> businesses / startups server their customers better with our </h3>
+            <h3>suite of modern digital investment stack</h3>
+            <button>Try Inspite now</button>
+            </div>
+            <div className='secondbox'>
+                <img src={hand}></img>
+            </div>
             </div>
            </div>
           
