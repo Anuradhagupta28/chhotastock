@@ -68,20 +68,20 @@ function Login (){
             </div>
             <div  className="frame3-box2">
                 <div>
-                    <h4>Protection</h4>
+                    <h3>Protection</h3>
                     <img src={image2}></img>
                     <p>Data protection guarentees</p>
                 </div>
-                <div>
-                <h4>Tracking</h4>
+                <div id="blackdiv">
+                <h3 >Tracking</h3>
                     <img src={tracking}></img>
                     <p>Track all your users’ financial transactions</p>
                 </div>
-                <div><h4>Protection</h4>
+                <div><h3>Flexibilty</h3>
                     <img src={stick}></img>
                     <p>Custom made for your requirements</p></div>
                 <div>
-                <h4>Protection</h4>
+                <h3>Easyness</h3>
                     <img src={fire}></img>
                     <p>Go-to market in less than 7 days</p>
                 </div>
