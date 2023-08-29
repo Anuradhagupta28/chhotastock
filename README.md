@@ -1,6 +1,6 @@
 # chhotastock
 This is landing page and product page ,make this project through figma design.
-# Frontend Development Assessment: Registration, Login, and User Details Pages
+# Frontend Development Assessment: Landing  and  Login Pages
 
 ## Objective
 
