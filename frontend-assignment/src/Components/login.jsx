@@ -93,12 +93,12 @@ function Login (){
            <div className="frame4">
             <div className='frame4-box1'>
             <div className='firstbox'>
-            <h1 id="firstbox-c">Connect your platform finances </h1>
+            <h1 id="main-c">Connect your platform finances </h1>
             <h1 id="firstbox-n">now with InvestPe Gateway</h1>
             <h3>We help brokers, wealth managers, fund managers & other</h3>
             <h3 id="firstbox-b"> businesses / startups server their customers better with our </h3>
             <h3 id="firstbox-b">suite of modern digital investment stack</h3>
-            <button>Try Inspite now</button>
+            <button>Try Investpe now</button>
             </div>
             <div className='secondbox'>
                 <img src={hand}></img>

@@ -303,54 +303,61 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     .frame4{
       
       background: #171E27;
-      border-radius: 100px;
-     width:1150px;
-     height:430px;
+      border-radius: 90px;
+     width:1170px;
+     height:450px;
      margin: 100px;
     
     }
     .frame4-box1{
       display: flex;
       justify-content: space-around;
-      /* margin:60px; */
+      
     }
     .firstbox{
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      border:solid #28B570;
+    
      margin-left: 50px;
+      margin-top: 30px;
+
     
   
     }
-    #firstbox-c{
-      margin-top: -5px;
-    }
+   
     #firstbox-n{
-    margin-top: -25px;
+    margin-top: -30px;
     }
     #firstbox-b{
     margin-top: -22px;
     }
+   
     .firstbox>button{
-      width: 170px;
+      width: 180px;
     height: 42px;
  
     font-size: 18px;
     border:#F3A61D;
-    border-radius: 35px;
+    border-radius: 45px;
 background: linear-gradient(99deg, #FEC826 0%, #F3A61D 100%);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+margin-top: 10px;
     }
     .frame4-box1 h1{
       color:white;
       font-size: 40px;
+      
+     
     }
     .frame4-box1 h3{
      color:#CECECE;
      font-size: 22px;
+     margin-top:-2px;
     }
     .secondbox >img{
-      width:450px;
-      height: 250px ;
+      width:400px;
+      height: 230px ;
+      margin-top: 215px;
+      margin-left: -100px;
     }
