@@ -105,6 +105,22 @@ function Login (){
             </div>
             </div>
            </div>
+           {/* /////////////////////////////////// */}
+           <div className="frame5">
+            <div>
+            <h4>SOLUTION</h4>
+                
+                <h1>Stay ahead with our</h1>
+                <h1> Wealth-tech as a service </h1>
+            </div>
+            <div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+           </div>
           
         </div>
     )
