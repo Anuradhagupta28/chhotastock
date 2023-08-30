@@ -223,7 +223,29 @@ function Login (){
           </div>
         </div>
       </div>
-      <hr className='bar2'></hr>
+      {/* /////////////////////////////////////////////////// */}
+      <div className='reachOutSection'>
+        <p className='reachOutSectionHeading'>
+          How would you like to work with us?
+        </p>
+        <p className='reachOutSectionText'>
+          Tell us more about yourself, and we’ll reach out to you as soon as
+          possible.
+        </p>
+        <div className='inputSection'>
+          <div className='inputForm'>
+            <label for="email">Work email</label>
+            <input type="email" id="email" name="email" />
+
+            <label for="company">Company Name</label>
+            <input type="text" id="company" name="company" />
+
+            <label for="mobile">Mobile Number</label>
+            <input type="tel" id="mobile" name="mobile" />
+          </div>
+          
+        </div>
+      </div>
 
         </div>
     )

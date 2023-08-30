@@ -547,3 +547,59 @@ align-items: flex-start;
     height: 2.875rem;
     flex-shrink: 0;
   }
+/* ////////////////////////////// */
+
+.reachOutSection {
+  width: 56.125rem;
+  height: 28rem;
+  margin: 0 auto;
+  margin-top: -5rem;
+  padding: 5rem;
+  flex-shrink: 0;
+  border-radius: 3.125rem;
+  background: linear-gradient(180deg, #fec175 0%, #fb9077 100%);
+}
+.reachOutSectionHeading {
+  color: #000;
+  /* font-family: Gilroy; */
+  font-size: 2.625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.1875rem;
+  margin-top: -20px;
+  margin-left: -170px;
+}
+.reachOutSectionText {
+  width: 32.6875rem;
+  color: #474747;
+  /* font-family: Gilroy; */
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.1875rem;
+}
+.inputSection {
+  display: flex;
+  justify-content: space-between;
+}
+.inputForm {
+  display: flex;
+  flex-direction: column;
+}
+.inputForm label {
+  color: #474747;
+  /* font-family: Gilroy; */
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.1875rem;
+  margin-left: -210px;
+}
+.inputForm input {
+  width: 20.5rem;
+  height: 2.6875rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  background: #fff;
+  margin-bottom: 2rem;
+}
