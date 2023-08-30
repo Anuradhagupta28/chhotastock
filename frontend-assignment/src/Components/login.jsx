@@ -9,9 +9,12 @@ import pic1 from "../logo/pic1.png"
 import pic2 from "../logo/pic2.png"
 import pic3 from "../logo/pic3.png"
 import pic4 from "../logo/pic4.png"
+import {Nav2}from "./Nav2";
+
 function Login (){
     return(
         <div>
+            <Nav2/>
            <div className="frame2">
                <div className="frame2-box">
                 <div  className="box1">
@@ -177,6 +180,7 @@ function Login (){
             </div>
            </div> 
            </div>
+          
           
         </div>
     )
