@@ -48,4 +48,14 @@
   .close-button:hover {
     color: #333;
   }
+  .maindiv{
+    display: flex;
+    justify-content: space-around;
+  }
+  .maindiv h3{
+    color:#28B570
+  }
+  .maindiv h2{
+    color:black
+  }
   

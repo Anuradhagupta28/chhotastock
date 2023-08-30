@@ -9,7 +9,7 @@ const Popup = ({ onClose }) => {
           &#215; {/* Close (cross) icon */}
         </button>
         {/* <p>This is the popup content.</p> */}
-<div>
+<div className='maindiv'>
     <div>
         <h3>INVESTMENTS</h3>
         <h2>Mutual Fund</h2>
