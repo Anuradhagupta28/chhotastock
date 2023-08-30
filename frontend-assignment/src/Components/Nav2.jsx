@@ -7,8 +7,21 @@ import dot from "../logo/dot.png";
 import dropDown from "../logo/dropDown.png";
 
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import Popup from "./popup";
 
 export const Nav2 = () => {
+
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+  const handleButtonClick = () => {
+    setIsPopupOpen(true);
+  };
+
+  const handleClosePopup = () => {
+    setIsPopupOpen(false);
+  };
+
   return (
     <div className={styles.nav2Section}>
       {/* <img src={navStripe2} /> */}
@@ -25,7 +38,8 @@ export const Nav2 = () => {
           <Link style={{ textDecoration: "none" }}>
             <div className={styles.navLinkProducts}>
               <p className={styles.navLink}>Products</p>
-              <img src={dropDown} />
+              <img src={dropDown} onClick={handleButtonClick} />
+              {isPopupOpen && <Popup onClose={handleClosePopup} />}
             </div>
           </Link>
           <Link style={{ textDecoration: "none" }}>
