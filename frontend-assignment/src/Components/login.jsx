@@ -11,6 +11,15 @@ import pic3 from "../logo/pic3.png"
 import pic4 from "../logo/pic4.png"
 import {Nav2}from "./Nav2";
 
+import kotak from "../logo/kotak.png";
+import angelOne from "../logo/angelone.png";
+import upstox from "../logo/upstox.png";
+import amfi from "../logo/amfi.png";
+import lendbox from "../logo/lendbox.png";
+import liquiloans from "../logo/liquiloans.png";
+import siply from "../logo/siply.png";
+import jupiter from "../logo/jupiter.png";
+
 function Login (){
     return(
         <div>
@@ -180,8 +189,42 @@ function Login (){
             </div>
            </div> 
            </div>
+           {/* /////////////////////////////////////// */}
           
-          
+           <hr className='bar1'></hr>
+     
+
+      <div className='partnersSection'>
+        <div className='partnersSectionText'>
+          <p>Some partners who make InvestPe products possible—</p>
+          <p>
+            ...and a few of the businesses building some incredible solutions
+            with InvestPe
+          </p>
+        </div>
+        <div className='partnersSectionImg'>
+          <div className='partnersSectionImg1'>
+            <img src={kotak} />
+            <img src={angelOne} />
+            <img src={upstox} />
+            
+            <img src={amfi} />
+            <img src={lendbox} />
+            <img src={liquiloans} />
+            <br />
+          </div>
+          <div className='partnersSectionImg2'>
+            <div>
+              <img src={siply} />
+            </div>
+            <div>
+              <img src={jupiter} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr className='bar2'></hr>
+
         </div>
     )
 }

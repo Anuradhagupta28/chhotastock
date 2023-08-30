@@ -42,7 +42,6 @@ line-height: normal;
 height: 300px;
 display: flex;
 padding: 175px ;
-gap: 25px;
 
 }
 
@@ -104,59 +103,266 @@ line-height: normal;
 text-decoration-line: underline;
 }
 #C-bridge >img{
-    width: 100%;
-   
+    width: 75px;
+    height: 50px;
     object-fit: contain;
 
 }
 #C-bridge{
-    
+    border: 1px solid blue;
     display: flex;
     
     
 }
-.threeDbox img{
-    width: 60%;
-    z-index: 1;
+
+/* essential//////////////////////////////////////////////////////// */
+
+.essentials_section {
+    height: 306.3125rem;
+    width: 70.375rem;
+    height: 43.25rem;
+    flex-shrink: 0;
+    border-radius: 6.25rem;
+    background: #171e27;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 10rem;
+  }
+  .essentials {
+    padding-left: 9rem;
+    padding-top: 2rem;
+  }
+  .essentialsHeading {
+    width: 41.0625rem;
+  }
+  .essentials :first-child p {
+    color: #fff;
+    /* font-family: Gilroy; */
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.375rem;
+  }
+  .essentials :first-child p span {
+    color: #f6ad1f;
+    /* font-family: Gilroy; */
+    font-size: 2.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.375rem;
+  }
+  .essentialsSubHeading {
+    /* border: 1px solid red; */
+    width: 32.5625rem;
+    color: #cecece;
+    /* font-family: Gilroy; */
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+  }
+  .bulbContainer {
+    display: flex;
+    /* justify-content: center; */
+    align-self: center;
+  }
+  .bulbContainer p {
+    margin: 0;
+    margin-left: 0.7rem;
+  }
+  
+  .bulb {
+    width: 2.625rem;
+    height: 4.125rem;
+    flex-shrink: 0;
+  }
+  .essentials_buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  .essentials_buttons button {
+    width: 10.625rem;
+    height: 2.5625rem;
+    flex-shrink: 0;
+    border-radius: 2.1875rem;
+    background: linear-gradient(99deg, #fec826 0%, #f3a61d 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #171e27;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .essentials_buttons p {
+    color: #fff;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+    padding-left: 1.5rem;
+  }
+  
+  .ess_imgs {
     position: relative;
-    bottom: 129px;
-    left: 15%;
-}
-.midDiv{
+    width: 100%;
+    height: 100%;
+  }
+  .ess_imgs img {
+    position: absolute;
+    width: 18.625rem;
+    height: 13.4375rem;
+    flex-shrink: 0; /* Adjust the image size */
+    object-fit: cover; /* Maintain aspect ratio */
+    border: 1px solid black;
+    margin-top: 5rem;
+  }
+  
+  .ess_imgs img:nth-child(1) {
+    z-index: 0;
+    bottom: -2rem;
+    left: -10rem;
+    margin-bottom: 5rem;
+  }
+  .ess_imgs img:nth-child(2) {
+    z-index: 1;
+    left: -25%;
+    top: 9rem;
+  }
+  .ess_imgs img:nth-child(3) {
+    z-index: 2;
+    right: 7%;
+    top: 2rem;
+  }
+
+
+
+  
+  /*///////////////////////////////////////////// stock_section */
+  .stock_section {
+    width: 90rem;
+    /* height: 406.3125rem; */
+    background: #fff;
+    margin: 0 auto;
+  }
+  
+  .stock_section_heading {
+    width: 51rem;
+    height: 2.25rem;
+    flex-shrink: 0;
+    color: #171e27;
+    /* font-family: Gilroy; */
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .stock_section_text {
+    width: 28.0625rem;
+    margin-left: 100px;
+  }
+  .stock_section_text p {
+    color: #777;
+    /* font-family: Gilroy; */
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 1.6rem;
+  }
+  .cardSection {
     display: flex;
-    justify-content: center;
-    margin: 75px 25px 25px 25px;
+    justify-content: space-evenly;
+    margin: 20px;
     
-}
-.midDiv img{
- width: 80%;
-}
-.stockInvestingDiv{
+    width:92%;
+  }
+  .bar1 {
+    width: 78.938rem;
+    height: 0.0625rem;
+    background: #777;
+    /* margin: 70px; */
+    margin-top: 5rem ;
+  }
+  .bar2 {
+    width: 78.938rem;
+    height: 0.0625rem;
+    background: #777;
+    /* margin: 70px; */
+    margin-top: -7rem ;
+  }
+  
+  /* partner section */
+  .partnersSection {
+    width: 70rem;
+    height: 40rem;
+    background: #fff;
     display: flex;
-    justify-content: center;
-    margin: 75px 25px 25px 25px;
-    padding-bottom: 75px;
-    border-bottom: 1px solid #777777;
-;
-}
-.stockInvestingDiv img{
-    width: 80%;
-}
-.PartnerImg{
+    margin: 0 80px;
+    gap: 3rem;
+    padding: 3rem;
+   
+    
+  }
+  .partnersSectionText {
+    height: 30rem;
     display: flex;
-    justify-content: center;
-    padding-bottom: 75px;
-    margin: 75px 25px 25px 25px;
-    border-bottom: 2px solid #777;;
-}
-.PartnerImg img{
-    width: 80%;
-}
-.reviewerImg{
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .partnersSectionText p {
+    width: 22rem;
+    color: #777;
+    /* font-family: Gilroy; */
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+   
+  }
+  
+  .partnersSectionImg {
+    height: 25rem;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+  .partnersSectionImg1 {
+    display: grid;
+  grid-template-columns: repeat(3,1fr);
+    gap: 1.8rem;
+    align-items: center;
+    width:700px;
+    height:500px;
+  
+  }
+  
+  .partnersSectionImg1 img {
+    width: 200px;
+    height: auto;
+  }
+  
+  .partnersSectionImg2 {
+    display: flex;
+    gap: 2.2rem;
+  }
+  .partnersSectionImg2 div {
+    width: 12.6875rem;
+    height: 7.1875rem;
+    flex-shrink: 0;
+    border-radius: 2.125rem;
+    background: #b1b1b1;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    margin: 75px 25px 25px 25px;
-}
-.reviewerImg img{
-    width: 80%;
-}
+  }
+  .partnersSectionImg2 div img {
+    width: 10.875rem;
+    height: 2.875rem;
+    flex-shrink: 0;
+  }
