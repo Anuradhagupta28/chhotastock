@@ -99,6 +99,7 @@ import lendbox from "../logo/lendbox.png";
 import liquiloans from "../logo/liquiloans.png";
 import siply from "../logo/siply.png";
 import jupiter from "../logo/jupiter.png";
+import reviever from "../logo/Reviewer.svg"
 import Navbar from './navbar';
 
 function Home(props) {
@@ -240,6 +241,10 @@ Investing & Trading
         </div>
       </div>
       <hr className='bar2'></hr>
+      {/* ////////// */}
+      <div className="reviewerImg">
+                <img src={reviever} alt="" />
+            </div>
       
           
         </div>

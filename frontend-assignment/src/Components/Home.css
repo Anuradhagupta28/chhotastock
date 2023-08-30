@@ -366,3 +366,13 @@ text-decoration-line: underline;
     height: 2.875rem;
     flex-shrink: 0;
   }
+
+  /* ///// */
+  .reviewerImg{
+    display: flex;
+    justify-content: center;
+    margin: 75px 25px 25px 25px;
+}
+.reviewerImg img{
+    width: 80%;
+}
