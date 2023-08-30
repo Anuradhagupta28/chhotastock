@@ -1,8 +1,8 @@
 .nav2Section {
-  width: 100rem;
+  width: 80rem;
 
   background: #fff;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 .nav2 {
   width: 84rem;
@@ -48,6 +48,10 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
+}
+.navLinkProducts img{
+  margin-top: 20px;
+  margin-left:-50px;
 }
 .navLink {
   color: #fff;
