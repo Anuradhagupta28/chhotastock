@@ -1,3 +1,5 @@
+
+
 .upperAreadiv{
     background: #171E27;
     display: flex;
@@ -244,10 +246,11 @@ text-decoration-line: underline;
   
   /*///////////////////////////////////////////// stock_section */
   .stock_section {
-    width: 90rem;
+    width: 80rem;
     /* height: 406.3125rem; */
     background: #fff;
     margin: 0 auto;
+    
   }
   
   .stock_section_heading {
@@ -282,8 +285,8 @@ text-decoration-line: underline;
     width:92%;
   }
   .bar1 {
-    width: 78.938rem;
-    height: 0.0625rem;
+    width: 72.938rem;
+    height: 0.02rem;
     background: #777;
     /* margin: 70px; */
     margin-top: 5rem ;

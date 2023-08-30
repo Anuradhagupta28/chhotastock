@@ -104,7 +104,7 @@ import Navbar from './navbar';
 
 function Home(props) {
     return (
-        <div >
+        <div className="maindivpro">
             <Navbar/>
             <div className="upperAreadiv">
 
