@@ -14,7 +14,8 @@ export const Nav2 = () => {
       {/* <img src={navStripe2} /> */}
       <div className={styles.nav2}>
         <div className={styles.logoSection}>
-          <img src={logo} />
+          <Link to="/"><img src={logo} /></Link>
+          
           <div className={styles.gatewayButton}>
             <button type="submit">Gateway</button>
             <img src={dot} alt="" />
